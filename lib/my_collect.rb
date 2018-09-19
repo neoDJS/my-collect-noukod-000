@@ -5,4 +5,5 @@ def my_collect(arr)
       col << yield(arr[i])
     end
   end
+  col
 end
