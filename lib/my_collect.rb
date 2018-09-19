@@ -4,6 +4,6 @@ def my_collect(arr)
     arr.length.times do |i|
       col << yield(arr[i])
     end
+    col
   end
-  col
 end
